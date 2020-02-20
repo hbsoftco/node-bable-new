@@ -1,0 +1,26 @@
+{
+  "name": "node-bable-new",
+  "version": "1.0.0",
+  "description": "For learning node with babel",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbsoftco/node-bable-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbsoftco/node-bable-new/issues"
+  },
+  "homepage": "https://github.com/hbsoftco/node-bable-new#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
